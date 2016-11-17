@@ -3,14 +3,14 @@
 
 ### 說明
 
-1. 作答時間：2016-11-18 09:00 CST -- 2016-12-02 08:59 CST 以 commit 時間為準。
-2. 請用 github 繳交你的作業
+* 作答時間：2016-11-18 09:00 CST -- 2016-12-02 08:59 CST 以 commit 時間為準。
+* 請用 github 繳交你的作業
  
    邀請連結：
    https://classroom.github.com/assignment-invitations/4567b444696dda2bb90487c487553750
 
 
-3. 格式
+* 格式
    
    a. 將你的作法用 [R Markdown](http://rmarkdown.rstudio.com) 詳細寫出，
       包含做法過程、註解等
@@ -20,20 +20,21 @@
 	1033579_mid.r
 	1033579_mid.rmarkdown
 ```
+   
    c. 所有的文字編碼都必須是 UTF-8 (unicode) 
 
-4. 關於抄襲與剽竊
+* 關於抄襲與剽竊
 
    期中考試請自行作答，可上網搜尋或討論，但不可以抄襲別人的。一旦發現以零分計算。
 
 
 ### 試題
 
-1. 請隨機產生 10000 組正整數儲存成 vector 格式，並輸出成 random10k.csv (5%)
+一. 請隨機產生 10000 組正整數儲存成 vector 格式，並輸出成 random10k.csv (5%)
 
-2. 請使用 for 迴圈列出 15 個[費布納西(Fibonacci)數列](https://en.wikipedia.org/wiki/Fibonacci_number) (10%)
+二. 請使用 for 迴圈列出 15 個[費布納西(Fibonacci)數列](https://en.wikipedia.org/wiki/Fibonacci_number) (10%)
 
-4. 請將 sample_data.txt 輸入進 R 內，並完成以下計算 (55%)
+三. 請將 sample_data.txt 輸入進 R 內，並完成以下計算 (55%)
 
    (a) 將 ```yyyymmddhh``` 轉成 POSIXct 時間戳記格式，
        並新增為一個欄(variable)，命名為 timestamp。並將此 sample data 輸出為
@@ -47,7 +48,6 @@
 | 月平均氣溫 |      |      |      |      |      |  ...  |      |
 | 月平均濕度 |      |      |      |      |      |  ...  |      |
 | 月累積降水 |      |      |      |      |      |  ...  |      |
-
 
   (c) 請計算 2014 年和 2015 年最冷月分別是在哪個月份？(提示：先計算月均溫)
 
@@ -75,9 +75,8 @@
       繪製 2014 至 2015 的生態氣候圖(Ecological climate diagrams)。
       提示：你需要計算出每個月的累積降水平均、每日最高溫平均、每日最低溫平均、每月絕對最低溫。
       可參考[繪製生態氣候圖](https://gist.github.com/mutolisp/3cc9c337c271fbfd12ec6e15a05f8d23)
-
-
-3. 請計算 Table 2 中的下列各子題 (30%)
+      
+四. 請計算 Table 2 中的下列各子題 (30%)
 
   (a) 請計算各島環境因子(total_cover, C, EC, ..., etc.) 的平均、
       第一四分位數、中位數、第三四分位數、最大值及最小值以及標準差，並整理成如下表格：
@@ -98,7 +97,7 @@
 
 ### 資料說明
 
-1. Sample data (sample_data.txt) 是一個氣象站 2014 至 2015 年的逐時資料(Table 1)，
+A. Sample data (sample_data.txt) 是一個氣象站 2014 至 2015 年的逐時資料(Table 1)，
 欄位名稱代表的意義如下：
 
 * yyyymmddhh: 西元四位數年
@@ -122,8 +121,7 @@ Table 1. A meterological station hourly observation data
 |    7 |  2014010106 | 1015.3 |   14.6 |    83   |  0.9  | 360.0  |   0.0  | -9999  |
 |    8 |  2014010107 | 1015.6 |   14.5 |    81   |  0.9  | 360.0  |   0.0  | -9999  |
 
-
-2. penghu_env.csv 澎湖南方四島環境因子資料
+B. penghu_env.csv 澎湖南方四島環境因子資料
 
 下表(Table 2) 中為澎湖南方四島的植群樣區之環境因子資料，其欄位名稱意義為：
 
